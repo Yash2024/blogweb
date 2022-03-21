@@ -1,1 +1,22 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
+<body>
+    <!-- <div class="content"> -->
+        <h1 class="heading">Blogs</h1>
+        <div >
+            <div class="myblogs" *ngFor="let blg of bloglist">
+                <h3>{{blg.name}}</h3>
+               
+                <p><span class="truncate">{{blg.desc}}</span>
+                    <a style="color: green;" [routerLink]="['/blogs',blg.rlink]">Read More</a></p><br>
+
+                <i class="fa fa-tag" style="font-size:15px;color:green"></i>{{blg.topicname}}<br>
+            </div>
+            
+        </div>
+    
+    <!-- </div> -->
+</body>

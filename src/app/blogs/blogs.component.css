@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: auto;
+}
+
+.heading{
+    background-color: #88dd5e;
+    margin-top: 50px;
+    margin-left: 0;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+.truncate {
+    display: inline-block;
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .truncate + a {
+  display: inline-block;
+    vertical-align: top;
+    margin-top: -1px;
+  }
+.myblogs{
+    border-radius: 25px;
+    width: 90%;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 20px;
+    
+}
