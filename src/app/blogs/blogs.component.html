@@ -11,11 +11,10 @@
                 <h3>{{blg.name}}</h3>
                
                 <p><span class="truncate">{{blg.desc}}</span>
-                    <a style="color: green;" [routerLink]="['/blogs',blg.rlink]">Read More</a></p><br>
-
+                    <a style="color: green;" [routerLink]="['/blogs',blg.rlink]" target="_blank">Read More</a></p><br>
                 <i class="fa fa-tag" style="font-size:15px;color:green"></i>{{blg.topicname}}<br>
             </div>
-            
+            <router-outlet></router-outlet>
         </div>
     
     <!-- </div> -->

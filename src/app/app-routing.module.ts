@@ -9,9 +9,10 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   {path:"home", component:HomeComponent},
   {path:"about", component:AboutComponent},
-  {path:"blogs", component:BlogsComponent,
+  {path:"blogs", 
       children:[
-        {path:"/cycle in a linkedlist", component:CycleInALinkedlistComponent}
+        {path:"",component:BlogsComponent},
+        {path:"cycleinalinkedlist", component:CycleInALinkedlistComponent}
       ]},
   {path:"contactus", component:ContactusComponent},
   {path:"**",redirectTo:"/home"}
