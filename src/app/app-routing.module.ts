@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { CycleInALinkedlistComponent } from './blogs/cycle-in-a-linkedlist/cycle-in-a-linkedlist.component';
+import { StringsintroComponent } from './blogs/stringsintro/stringsintro.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { HomeComponent } from './home/home.component';
 
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path:"blogs", 
       children:[
         {path:"",component:BlogsComponent},
-        {path:"cycleinalinkedlist", component:CycleInALinkedlistComponent}
+        {path:"cycleinalinkedlist", component:CycleInALinkedlistComponent},
+        {path:"stringintro",component:StringsintroComponent}
       ]},
   {path:"contactus", component:ContactusComponent},
   {path:"**",redirectTo:"/home"}
