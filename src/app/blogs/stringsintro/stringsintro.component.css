@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, sans-serif;
+  }
+  .heading
+  {
+      align-content: center;
+      text-align: center;
+      background-color: green;
+      font-size: 45px;
+      size: 45px ;
+  }
+  .content{
+      text-align: center;
+      font-size: larger;
+  }
+  .example{
+      /* margin-left: 8px; 
+      display: inline-block; 
+      padding: 5px; 
+      background-color: #f5f5f5; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; */
+
+
+      /* margin-left: 8px; 
+      display: inline-block; 
+      vertical-align: middle; 
+      padding: 5px; 
+      background-color: #f5f5f5; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; */
+
+/* 
+      white-space: pre-wrap;
+    word-break: keep-all */
+  }
