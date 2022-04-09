@@ -2,8 +2,6 @@
 <body>
     <br>
     <br>
-    <br>
-    <br>
     <h1 class="heading">Strings</h1>
     <p class="content">Strings are objects that represent sequences of characters.
     
@@ -14,5 +12,14 @@
     Note that this class handles bytes independently of the encoding used: If used to handle sequences of multi-byte or variable-length characters (such as UTF-8), all members of this class (such as length or size), as well as its iterators, will still operate in terms of bytes (not actual encoded characters).
     </p>
     <p class="content" ><b> C++ program to demonstrate various function string class:</b></p>
-    <pre class="example">{{snippet}}</pre>
+    <div class="example"><pre>{{snippet}}</pre></div>
+    <p><b>Output:</b></p>
+    <div class="output"><pre>{{output}}</pre></div>
+    <div><p>As seen in the above code, we can get the length of the string by size() as well as length() but length() is preferred for strings. 
+        We can concat a string to another string by += or by append(), but += is slightly slower than append() because each time + is called a
+         new string (creation of new buffer) is made which is returned that is a bit overhead in case of many append operation.</p></div>
+         <br>
+         <br>
+         <br>
+         <br>
 </body>

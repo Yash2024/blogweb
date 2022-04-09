@@ -11,8 +11,7 @@ export class StringsintroComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  snippet=`// C++ program to demonstrate various function string class
-  #include <bits/stdc++.h>
+  snippet=`#include <bits/stdc++.h>
   using namespace std;
   int main()
   {
@@ -71,7 +70,7 @@ export class StringsintroComponent implements OnInit {
   
       // c_str returns null terminated char array version of string
       const char* charstr = str6.c_str();
-      printf("%s", charstr);
+      printf("%s/n", charstr);
   
       // append add the argument string at the end
       str6.append(" extension");
@@ -119,4 +118,23 @@ export class StringsintroComponent implements OnInit {
   
       return 0;
   }`;
+  output=`
+  first string
+  first string
+  #####
+  string
+  first
+  Length of string is : 6
+  third character of string is : r
+  First char is : s, Last char is : g
+  string
+  string extension
+  string
+  str4 found in str6 at 0 pos
+  ext
+  extension
+  string nsion
+  strinion
+  These are test examples`;
+
 }
