@@ -16,10 +16,11 @@ body{
 }
 .truncate {
     display: inline-block;
-    width: 250px;
+    width: 600px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    /* ellipsis is used to show... */
   }
   .truncate + a {
   display: inline-block;

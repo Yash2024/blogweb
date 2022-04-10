@@ -1,6 +1,6 @@
 export interface blg{
     id: number|null,
-    topicname: string,
+    topicname: string[],
     name: string,
     desc: string,
     rlink: string
