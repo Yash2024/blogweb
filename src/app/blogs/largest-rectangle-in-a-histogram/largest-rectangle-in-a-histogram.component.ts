@@ -82,7 +82,7 @@ export class LargestRectangleInAHistogramComponent implements OnInit {
   int main()
   {
       Solution obj;
-      vector<int> s={1};
+      vector<int> s={2,1,5,6,2,3};
       int x=obj.largestRectangleArea(s);
       cout<<x;
       return 0;

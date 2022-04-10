@@ -10,6 +10,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { CycleInALinkedlistComponent } from './blogs/cycle-in-a-linkedlist/cycle-in-a-linkedlist.component';
 import { StringsintroComponent } from './blogs/stringsintro/stringsintro.component';
 import { LargestRectangleInAHistogramComponent } from './blogs/largest-rectangle-in-a-histogram/largest-rectangle-in-a-histogram.component';
+import { LongestCommonSubsequenceComponent } from './blogs/longest-common-subsequence/longest-common-subsequence.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LargestRectangleInAHistogramComponent } from './blogs/largest-rectangle
     ContactusComponent,
     CycleInALinkedlistComponent,
     StringsintroComponent,
-    LargestRectangleInAHistogramComponent
+    LargestRectangleInAHistogramComponent,
+    LongestCommonSubsequenceComponent
   ],
   imports: [
     BrowserModule,
