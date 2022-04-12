@@ -11,6 +11,7 @@ import { CycleInALinkedlistComponent } from './blogs/cycle-in-a-linkedlist/cycle
 import { StringsintroComponent } from './blogs/stringsintro/stringsintro.component';
 import { LargestRectangleInAHistogramComponent } from './blogs/largest-rectangle-in-a-histogram/largest-rectangle-in-a-histogram.component';
 import { LongestCommonSubsequenceComponent } from './blogs/longest-common-subsequence/longest-common-subsequence.component';
+import { RotateMatrixComponent } from './blogs/rotate-matrix/rotate-matrix.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LongestCommonSubsequenceComponent } from './blogs/longest-common-subseq
     CycleInALinkedlistComponent,
     StringsintroComponent,
     LargestRectangleInAHistogramComponent,
-    LongestCommonSubsequenceComponent
+    LongestCommonSubsequenceComponent,
+    RotateMatrixComponent
   ],
   imports: [
     BrowserModule,
