@@ -11,5 +11,6 @@ export class ContactusComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  linkedinlink:string  ="click <a href='https://www.linkedin.com/in/yash-agrawal-erek2024/'> Follow us on LinkedIn</a>";
 }
+

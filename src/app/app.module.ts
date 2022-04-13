@@ -12,6 +12,8 @@ import { StringsintroComponent } from './blogs/stringsintro/stringsintro.compone
 import { LargestRectangleInAHistogramComponent } from './blogs/largest-rectangle-in-a-histogram/largest-rectangle-in-a-histogram.component';
 import { LongestCommonSubsequenceComponent } from './blogs/longest-common-subsequence/longest-common-subsequence.component';
 import { RotateMatrixComponent } from './blogs/rotate-matrix/rotate-matrix.component';
+import { SpiralMatrixIIComponent } from './blogs/spiral-matrix-ii/spiral-matrix-ii.component';
+import { LRUCatchComponent } from './blogs/lru-catch/lru-catch.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { RotateMatrixComponent } from './blogs/rotate-matrix/rotate-matrix.compo
     StringsintroComponent,
     LargestRectangleInAHistogramComponent,
     LongestCommonSubsequenceComponent,
-    RotateMatrixComponent
+    RotateMatrixComponent,
+    SpiralMatrixIIComponent,
+    LRUCatchComponent
   ],
   imports: [
     BrowserModule,
