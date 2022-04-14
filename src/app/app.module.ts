@@ -14,6 +14,7 @@ import { LongestCommonSubsequenceComponent } from './blogs/longest-common-subseq
 import { RotateMatrixComponent } from './blogs/rotate-matrix/rotate-matrix.component';
 import { SpiralMatrixIIComponent } from './blogs/spiral-matrix-ii/spiral-matrix-ii.component';
 import { LRUCatchComponent } from './blogs/lru-catch/lru-catch.component';
+import { SearchInABstComponent } from './blogs/search-in-a-bst/search-in-a-bst.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LRUCatchComponent } from './blogs/lru-catch/lru-catch.component';
     LongestCommonSubsequenceComponent,
     RotateMatrixComponent,
     SpiralMatrixIIComponent,
-    LRUCatchComponent
+    LRUCatchComponent,
+    SearchInABstComponent
   ],
   imports: [
     BrowserModule,

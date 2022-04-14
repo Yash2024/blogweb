@@ -7,6 +7,7 @@ import { LargestRectangleInAHistogramComponent } from './blogs/largest-rectangle
 import { LongestCommonSubsequenceComponent } from './blogs/longest-common-subsequence/longest-common-subsequence.component';
 import { LRUCatchComponent } from './blogs/lru-catch/lru-catch.component';
 import { RotateMatrixComponent } from './blogs/rotate-matrix/rotate-matrix.component';
+import { SearchInABstComponent } from './blogs/search-in-a-bst/search-in-a-bst.component';
 import { SpiralMatrixIIComponent } from './blogs/spiral-matrix-ii/spiral-matrix-ii.component';
 import { StringsintroComponent } from './blogs/stringsintro/stringsintro.component';
 import { ContactusComponent } from './contactus/contactus.component';
@@ -24,7 +25,8 @@ const routes: Routes = [
         {path:"longestcommonsubsequence",component:LongestCommonSubsequenceComponent},
         {path:"rotatematrix",component:RotateMatrixComponent},
         {path:"spiralmatrixII",component:SpiralMatrixIIComponent},
-        {path:"lrucatch",component:LRUCatchComponent}
+        {path:"lrucatch",component:LRUCatchComponent},
+        {path:"searchinabst",component:SearchInABstComponent}
       ]},
   {path:"contactus", component:ContactusComponent},
   {path:"**",redirectTo:"/home"}
