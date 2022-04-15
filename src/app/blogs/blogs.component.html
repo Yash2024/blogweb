@@ -11,7 +11,7 @@
                 <h3>{{blg.name}}</h3>
                
                 <p><span class="truncate">{{blg.desc}}</span>
-                    <a style="color: green;" [routerLink]="['/blogs',blg.rlink]" target="_blank">Read More</a></p><br> 
+                    <a style="color: green;" [routerLink]="['/blogs/',blg.rlink]" target="_blank">Read More</a></p><br> 
                     <!-- /*target:_blank is udes to open each blog in a new tab*/ -->
                 <i class="fa fa-tag" style="font-size:15px;color:green" *ngFor="let tp of blg.topicname">
                     <span style="color: black;">{{tp}}</span><span>&nbsp;&nbsp;&nbsp;</span></i><br>

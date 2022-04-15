@@ -17,7 +17,8 @@ export class BlogsComponent implements OnInit {
     {id:105,topicname:["Monotonic Stack","Array"],name:"Largest Rectangle in a Histogram",desc:"Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of",rlink:"largestrectangleinahistogram"},
     {id:106,topicname:["String","Dynamiuc Programming"],name:"Longest Common Subsequence",desc:"Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.",rlink:"longestcommonsubsequence"},
     {id:107,topicname:["HashTable","LinkedList","Doubly-Linked List","Design"],name:"LRU Catch",desc:"Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.",rlink:"lrucatch"},
-    {id:107,topicname:["Tree","Binary Search Tree","Binary Tree"],name:"Search in a Binary Search Tree",desc:"You are given the root of a binary search tree (BST) and an integer val.Find the node in the BST that the node's value equals val",rlink:"searchinabst"}
+    {id:108,topicname:["Tree","Binary Search Tree","Binary Tree"],name:"Search in a Binary Search Tree",desc:"You are given the root of a binary search tree (BST) and an integer val.Find the node in the BST that the node's value equals val",rlink:"searchinabst"},
+    {id:109,topicname:["Tree","Binary Search Tree","Depth First Search","Binary Tree"],name:"Trim a Binary Search Tree",desc:"Given the root of a binary search tree and the lowest and highest boundaries as low and high, trim the tree so that all its elements lies in [low, high]. ",rlink:"trimbst"}
   ]
   constructor() { }
 

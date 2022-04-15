@@ -10,6 +10,7 @@ import { RotateMatrixComponent } from './blogs/rotate-matrix/rotate-matrix.compo
 import { SearchInABstComponent } from './blogs/search-in-a-bst/search-in-a-bst.component';
 import { SpiralMatrixIIComponent } from './blogs/spiral-matrix-ii/spiral-matrix-ii.component';
 import { StringsintroComponent } from './blogs/stringsintro/stringsintro.component';
+import { TrimBstComponent } from './blogs/trim-bst/trim-bst.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { HomeComponent } from './home/home.component';
 
@@ -26,7 +27,8 @@ const routes: Routes = [
         {path:"rotatematrix",component:RotateMatrixComponent},
         {path:"spiralmatrixII",component:SpiralMatrixIIComponent},
         {path:"lrucatch",component:LRUCatchComponent},
-        {path:"searchinabst",component:SearchInABstComponent}
+        {path:"searchinabst",component:SearchInABstComponent},
+        {path:"trimbst",component:TrimBstComponent}
       ]},
   {path:"contactus", component:ContactusComponent},
   {path:"**",redirectTo:"/home"}
