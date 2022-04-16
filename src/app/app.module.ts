@@ -16,6 +16,8 @@ import { SpiralMatrixIIComponent } from './blogs/spiral-matrix-ii/spiral-matrix-
 import { LRUCatchComponent } from './blogs/lru-catch/lru-catch.component';
 import { SearchInABstComponent } from './blogs/search-in-a-bst/search-in-a-bst.component';
 import { TrimBstComponent } from './blogs/trim-bst/trim-bst.component';
+import { ConvtBstToGrtTreeComponent } from './blogs/convt-bst-to-grt-tree/convt-bst-to-grt-tree.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { TrimBstComponent } from './blogs/trim-bst/trim-bst.component';
     SpiralMatrixIIComponent,
     LRUCatchComponent,
     SearchInABstComponent,
-    TrimBstComponent
+    TrimBstComponent,
+    ConvtBstToGrtTreeComponent
   ],
   imports: [
     BrowserModule,

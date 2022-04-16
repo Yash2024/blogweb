@@ -18,7 +18,8 @@ export class BlogsComponent implements OnInit {
     {id:106,topicname:["String","Dynamiuc Programming"],name:"Longest Common Subsequence",desc:"Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.",rlink:"longestcommonsubsequence"},
     {id:107,topicname:["HashTable","LinkedList","Doubly-Linked List","Design"],name:"LRU Catch",desc:"Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.",rlink:"lrucatch"},
     {id:108,topicname:["Tree","Binary Search Tree","Binary Tree"],name:"Search in a Binary Search Tree",desc:"You are given the root of a binary search tree (BST) and an integer val.Find the node in the BST that the node's value equals val",rlink:"searchinabst"},
-    {id:109,topicname:["Tree","Binary Search Tree","Depth First Search","Binary Tree"],name:"Trim a Binary Search Tree",desc:"Given the root of a binary search tree and the lowest and highest boundaries as low and high, trim the tree so that all its elements lies in [low, high]. ",rlink:"trimbst"}
+    {id:109,topicname:["Tree","Binary Search Tree","Depth First Search","Binary Tree"],name:"Trim a Binary Search Tree",desc:"Given the root of a binary search tree and the lowest and highest boundaries as low and high, trim the tree so that all its elements lies in [low, high]. ",rlink:"trimbst"},
+    {id:110,topicname:["Tree","Binary Search Tree","Depth First Search","Binary Tree"],name:"Convert BST to Greater Tree",desc:"Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus the sum of all keys greater than the original key in BST.",rlink:"convert-bst-to-greater-tree"}
   ]
   constructor() { }
 

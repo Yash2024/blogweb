@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BlogsComponent } from './blogs/blogs.component';
+import { ConvtBstToGrtTreeComponent } from './blogs/convt-bst-to-grt-tree/convt-bst-to-grt-tree.component';
 import { CycleInALinkedlistComponent } from './blogs/cycle-in-a-linkedlist/cycle-in-a-linkedlist.component';
 import { LargestRectangleInAHistogramComponent } from './blogs/largest-rectangle-in-a-histogram/largest-rectangle-in-a-histogram.component';
 import { LongestCommonSubsequenceComponent } from './blogs/longest-common-subsequence/longest-common-subsequence.component';
@@ -28,7 +29,8 @@ const routes: Routes = [
         {path:"spiralmatrixII",component:SpiralMatrixIIComponent},
         {path:"lrucatch",component:LRUCatchComponent},
         {path:"searchinabst",component:SearchInABstComponent},
-        {path:"trimbst",component:TrimBstComponent}
+        {path:"trimbst",component:TrimBstComponent},
+        {path:"convert-bst-to-greater-tree",component:ConvtBstToGrtTreeComponent}
       ]},
   {path:"contactus", component:ContactusComponent},
   {path:"**",redirectTo:"/home"}
