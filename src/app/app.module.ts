@@ -17,6 +17,7 @@ import { LRUCatchComponent } from './blogs/lru-catch/lru-catch.component';
 import { SearchInABstComponent } from './blogs/search-in-a-bst/search-in-a-bst.component';
 import { TrimBstComponent } from './blogs/trim-bst/trim-bst.component';
 import { ConvtBstToGrtTreeComponent } from './blogs/convt-bst-to-grt-tree/convt-bst-to-grt-tree.component';
+import { RecoverBstComponent } from './blogs/recover-bst/recover-bst.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ConvtBstToGrtTreeComponent } from './blogs/convt-bst-to-grt-tree/convt-
     LRUCatchComponent,
     SearchInABstComponent,
     TrimBstComponent,
-    ConvtBstToGrtTreeComponent
+    ConvtBstToGrtTreeComponent,
+    RecoverBstComponent
   ],
   imports: [
     BrowserModule,

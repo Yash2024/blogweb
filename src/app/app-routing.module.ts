@@ -7,6 +7,7 @@ import { CycleInALinkedlistComponent } from './blogs/cycle-in-a-linkedlist/cycle
 import { LargestRectangleInAHistogramComponent } from './blogs/largest-rectangle-in-a-histogram/largest-rectangle-in-a-histogram.component';
 import { LongestCommonSubsequenceComponent } from './blogs/longest-common-subsequence/longest-common-subsequence.component';
 import { LRUCatchComponent } from './blogs/lru-catch/lru-catch.component';
+import { RecoverBstComponent } from './blogs/recover-bst/recover-bst.component';
 import { RotateMatrixComponent } from './blogs/rotate-matrix/rotate-matrix.component';
 import { SearchInABstComponent } from './blogs/search-in-a-bst/search-in-a-bst.component';
 import { SpiralMatrixIIComponent } from './blogs/spiral-matrix-ii/spiral-matrix-ii.component';
@@ -30,7 +31,8 @@ const routes: Routes = [
         {path:"lrucatch",component:LRUCatchComponent},
         {path:"searchinabst",component:SearchInABstComponent},
         {path:"trimbst",component:TrimBstComponent},
-        {path:"convert-bst-to-greater-tree",component:ConvtBstToGrtTreeComponent}
+        {path:"convert-bst-to-greater-tree",component:ConvtBstToGrtTreeComponent},
+        {path:"recoverbst",component:RecoverBstComponent}
       ]},
   {path:"contactus", component:ContactusComponent},
   {path:"**",redirectTo:"/home"}
