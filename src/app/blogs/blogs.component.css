@@ -35,3 +35,18 @@ body{
     margin: 20px;
     
 }
+@media (max-width:600px) {
+  .truncate {
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* ellipsis is used to show... */
+  }
+  .truncate + a {
+  display: inline-block;
+    vertical-align: top;
+    margin-top: -1px;
+  }
+}
